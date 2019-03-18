@@ -1,0 +1,53 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+#mapa {
+    height: 650px;
+    width: 100%;
+}
+
+#chat {
+    border-top-color: darkgray;
+    border-top-style: solid;
+    min-height: 200px;
+    background: lightblue;
+    padding: 10px 15px 15px 15px;
+}
+
+#chat h3 {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#chat-input {
+    padding: 10px 15px 10px 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    outline: none;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+}
+
+#send-message {
+    background: green;
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    border-radius: 15px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.msgtext {
+    background: whitesmoke;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 0.8rem;
+    word-break: break-word;
+}
