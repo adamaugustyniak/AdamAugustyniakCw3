@@ -1,0 +1,37 @@
+canvas{
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+}
+
+.time{
+  background-color: saddlebrown ;
+}
+.time::before{
+  content: "Twój czas: ";
+}
+.time::after{
+  content: " sekund";
+}
+.win{
+  width: 50%;
+  margin: 200px auto;
+  display: none;
+  color: #927c01;
+  font-size: 2rem;
+  font-family:sans-serif;
+}
+
+.end{
+  width: 50%;
+  margin: 200px auto;
+  display: none;
+  color: #e65e3b;
+  font-size: 2rem;
+  font-family:sans-serif;
+}
