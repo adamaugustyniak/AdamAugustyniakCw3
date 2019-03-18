@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Sampler</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <p><h3>Sampler</h3></p><br>
+    <div class="container">
+        <div class="control" >
+            <div><input type="radio" name="kanal" value="kanal1" checked> Kanał 1</div>
+            <div><input type="radio" name="kanal" value="kanal2"> Kanał 2</div>
+            <div><input type="radio" name="kanal" value="kanal3"> Kanał 3</div>
+            <div><input type="radio" name="kanal" value="kanal4"> Kanał 4</div>
+        </div>
+
+        <div class="control">
+            <button id="rec">Nagraj</button>
+            <button id="play">Play</button>
+        </div>
+
+        <div class="control">
+            <button class="key" value="boom">   
+                <p>boom</p>
+                <p>q</p>
+            </button>
+            <button class="key" value="clap">   
+                <p>clap</p>
+                <p>w</p>
+            </button>
+            <button class="key" value="hihat">  
+                <p>hihat</p>
+                <p>e</p>
+            </button>
+            <button class="key" value="kick">   
+                <p>kick</p> 
+                <p>r</p>
+            </button>
+            <button class="key" value="openhat">
+                <p>openhat</p> 
+                <p>t</p>
+            </button>
+            <button class="key" value="ride">   
+                <p>ride</p>
+                <p>y</p>
+            </button>
+            <button class="key" value="snare">  
+                <p>snare</p>
+                <p>u</p>
+            </button>
+            <button class="key" value="tom">    
+                <p>tom</p>
+                <p>i</p>
+            </button>
+            <button class="key" value="tink">  
+                <p>tink</p>
+                <p>o</p>
+            </button>
+        </div>
+        <div class="hide">
+            <audio src="sounds/boom.wav" controls id="boom"></audio>
+            <audio src="sounds/clap.wav" controls id="clap"></audio>
+            <audio src="sounds/hihat.wav" controls id="hihat"></audio>
+            <audio src="sounds/kick.wav" controls id="kick"></audio>
+            <audio src="sounds/openhat.wav" controls id="openhat"></audio>
+            <audio src="sounds/ride.wav" controls id="ride"></audio>
+            <audio src="sounds/snare.wav" controls id="snare"></audio>
+            <audio src="sounds/tom.wav" controls id="tom"></audio>
+            <audio src="sounds/tink.wav" controls id="tink"></audio>
+        </div>
+    </div>
+</body>
+</html>
