@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Edytor grafiki</title>
+</head>
+<body>
+    <div class="main">
+        <div class="canvas">
+            <canvas id="pe" width="800" height="480"></canvas>
+        </div>
+
+        <div class="controls">
+            <div class="group">
+                <label for="brightness">Jasność</label>
+                <input class="range" type="range" id="brightness" min="-50" max="50" step="1" />
+                <br>
+            </div>
+
+            <div class="group">
+                <label for="contrast">Kontrast</label>
+                <input class="range" type="range" id="contrast" min="-50" max="50" step="1" />
+                <br>
+            </div>
+
+            <div class="group">
+                <label for="saturation">Nasycenie</label>
+                <input class="range" type="range" id="saturation" min="-50" max="50" step="1" />
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
