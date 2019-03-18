@@ -1,0 +1,50 @@
+html, * {
+  box-sizing: border-box;
+}
+
+body {
+  font: 20px bold;
+  margin: 0;
+  padding: 0 50px 30px;
+  background:darkkhaki;
+}
+
+textarea {
+  display: block;
+  border-color: darkcyan;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+#notes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 16px;
+
+}
+
+.note {
+  width: 400px;
+  height: 350px;
+  font-size: 13px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 26px;
+  position: relative;
+  margin-left: 9px;
+}
+
+.note-new {
+  height: 100%;
+  overflow-y: auto;
+
+}
+button{
+  margin-top: 10px;
+  border-style: solid;
+  border-color: lightslategray;
+  border-width: 5px;
+  border-radius: 2px;
+
+}
+
